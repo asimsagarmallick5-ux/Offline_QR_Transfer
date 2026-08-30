@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- QR Code Pattern -->
+    <!-- Top-Left Square -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,22h18v18h-18z M26,26v10h10v-10h-10z M29,29h4v4h-4z" />
+
+    <!-- Top-Right Square -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,22h18v18h-18z M72,26v10h10v-10h-10z M75,29h4v4h-4z" />
+
+    <!-- Bottom-Left Square -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,68h18v18h-18z M26,72v10h10v-10h-10z M29,75h4v4h-4z" />
+
+    <!-- Random bits in the middle -->
+    <path
+        android:fillColor="#D1D1D1"
+        android:pathData="M45,45h5v5h-5z M55,45h5v5h-5z M65,45h5v5h-5z M45,55h5v5h-5z M55,55h5v5h-5z M65,55h5v5h-5z M45,65h5v5h-5z M55,75h5v5h-5z M65,65h5v5h-5z" />
+
+    <!-- Offline/No Wi-Fi Icon (Bottom Right) -->
+    <!-- Orange Circle -->
+    <path
+        android:fillColor="#FF8A47"
+        android:pathData="M90,85c0,8.28 -6.72,15 -15,15c-8.28,0 -15,-6.72 -15,-15c0,-8.28 6.72,-15 15,-15c8.28,0 15,6.72 15,15z" />
+
+    <!-- Wi-Fi Symbol inside circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,90a1.5,1.5 0 1 0 0,-3a1.5,1.5 0 0 0 0,3z M71.5,84.5a5,5 0 0 1 7,0a0.75,0.75 0 1 0 1.06,-1.06a6.5,6.5 0 0 0 -9.12,0a0.75,0.75 0 1 0 1.06,1.06z M68,81a10,10 0 0 1 14,0a0.75,0.75 0 0 0 1.06,-1.06a11.5,11.5 0 0 0 -16.12,0a0.75,0.75 0 0 0 1.06,1.06z" />
+
+    <!-- Slash across Wi-Fi -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,93l18,-18l1.5,1.5l-18,18z" />
+
+</vector>
